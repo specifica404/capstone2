@@ -1,0 +1,52 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #pro{
+    border-radius: 50%;
+    height: 300px;
+  }
+h1 , header{
+  font-family: 'Bree Serif', serif;
+}
+#btn{
+    border-radius: 20%;
+    background-color: paleturquoise;
+    
+    
+}
+.lala{
+    color: black;
+}
+#cont{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#g{
+    display: flex;
+    justify-content: center;
+}
+.pad{
+    padding-top: 5px;
+}
+.t{
+    border-radius: 30%;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
